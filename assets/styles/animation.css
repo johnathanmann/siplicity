@@ -1,0 +1,17 @@
+@keyframes herbal-1 {
+    0% { transform: translate(0,  0px) rotate(2deg); }
+    50%  { transform: translate(0, 15px) rotate(2deg); }
+    100%   { transform: translate(0, -0px) rotate(2deg); }   
+}
+
+@keyframes herbal-2 {
+    0% { transform: translate(0px,  -5px) rotate(-3deg); }
+    50%  { transform: translate(10px, -15px) rotate(-3deg); }
+    100%   { transform: translate(0, -5px) rotate(-3deg); }   
+}
+
+@keyframes herbal-3 {
+    0% { transform: translate(-5px,  0px) rotate(5deg); }
+    50%  { transform: translate(-15px, 10px)rotate(5deg); }
+    100%   { transform: translate(-5px, 0px)rotate(5deg); }   
+}
