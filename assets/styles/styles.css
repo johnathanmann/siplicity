@@ -43,12 +43,9 @@
     padding-left: 50px;
 }
 
-#header img{
+#herbal-1{
     height: 40vh;
     position: relative;
-}
-
-#herbal-1{
     top: 60px;
     left: 40px;
     animation-name: herbal-1;
@@ -58,6 +55,8 @@
 }
 
 #herbal-2{
+    height: 40vh;
+    position: relative;
     top: 250px;
     left: 150px;
     animation-name: herbal-2;
@@ -67,10 +66,45 @@
 }
 
 #herbal-3{
+    height: 40vh;
+    position: relative;
     top: 400px;
     left: -225px;
     animation-name: herbal-3;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+}
+
+#partial-can{
+    height: 70vh;
+    margin-top: 30vh;
+}
+
+.show-md{
+    display: none;
+}
+
+@media (max-width: 1035px){
+    .hidden-md{
+        display: none;
+    }
+    .show-md{
+        display:contents;
+    }
+}
+
+@media (max-width: 768px){
+    .stroke{
+        -webkit-text-stroke-width: 2px;
+    }
+    #header h1{
+        margin-top: 15vh;
+    }
+    #partial-can{
+        bottom: 0;
+        margin: 0;
+        height: 50vh;
+        position: absolute;
+    }
 }
