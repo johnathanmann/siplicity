@@ -3,6 +3,10 @@
     --cream: #fffae4;
 }
 
+body{
+    background-color: var(--cream) !important;
+}
+
 .stroke{
     color: #fff;
   -webkit-text-fill-color: var(--red);
@@ -18,12 +22,13 @@
 }
 
 #brand{
-    position: absolute;
+    position: fixed;
     font-family: "gambado-sans-forte", sans-serif;
     font-weight: 700;
     font-style: normal;
     top: 10px;
-    left: 42%;
+    left: 45%;
+    z-index: 1;
 }
 
 #header{
@@ -92,6 +97,23 @@
 
 .show-md{
     display: none;
+}
+
+#about h2{
+    font-family: "gambado-sans-forte", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--red);
+}
+
+#about p{
+    font-size: 24px;
+    font-family: "stevie-sans", sans-serif;
+    font-style: normal;
+}
+
+#about img{
+    height: 50px;
 }
 
 @media (max-width: 1035px){
