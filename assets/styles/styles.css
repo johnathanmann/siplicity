@@ -17,6 +17,15 @@
   -webkit-text-stroke-color: #fff;
 }
 
+#brand{
+    position: absolute;
+    font-family: "gambado-sans-forte", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    top: 10px;
+    left: 42%;
+}
+
 #header{
     background-image: url(../imgs/jumbotron-bg.png);
     height: 100vh;
@@ -90,7 +99,7 @@
         display: none;
     }
     .show-md{
-        display:contents;
+        display: flex;
     }
 }
 
