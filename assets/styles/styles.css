@@ -34,6 +34,7 @@ body{
     font-style: normal;
     top: 10px;
     left: 45%;
+    z-index: 1;
 }
 
 #header{
@@ -120,4 +121,27 @@ body{
 
 .cans{
     height:50vh;
+}
+
+#reviews h1{
+    font-family: "gambado-sans-forte", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--red);
+}
+
+#reviews p{
+    padding: 5px;
+    border: solid 2px #000;
+    border-radius: 15px;
+    width: 30vw;
+    margin: 10px auto 10px auto;
+}
+
+#reviews img{
+    width: 30vw;
+    height: fit-content;
+    border: solid 2px #000;
+    border-radius: 15px;
+    margin: 10px;
 }

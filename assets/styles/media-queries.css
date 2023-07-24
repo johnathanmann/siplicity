@@ -30,6 +30,13 @@
     #about p{
         padding: 0px 50px;
     }
+    #reviews p{
+        width: 80vw;
+    }
+    
+    #reviews img{
+        width: 80vw;
+    }
 }
 
 @media (max-width: 576px){
