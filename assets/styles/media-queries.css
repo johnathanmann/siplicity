@@ -24,4 +24,20 @@
         height: 50vh;
         position: absolute;
     }
+    #brand{
+        left: 40%;
+    }
+    #about p{
+        padding: 0px 50px;
+    }
+}
+
+@media (max-width: 576px){
+    #brand{
+        left: 33%;
+    }
+    
+    #about p{
+        padding: 0px;
+    }
 }

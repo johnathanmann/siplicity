@@ -23,7 +23,7 @@ body{
   -webkit-text-stroke-color: #fff;
 }
 
-.container-fluid{
+.container-fluid, .col-md-6{
     padding: 0;
 }
 
@@ -34,7 +34,6 @@ body{
     font-style: normal;
     top: 10px;
     left: 45%;
-    z-index: 1;
 }
 
 #header{
@@ -101,7 +100,7 @@ body{
     margin-top: 30vh;
 }
 
-#about h2{
+#about h1{
     font-family: "gambado-sans-forte", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -112,6 +111,7 @@ body{
     font-size: 24px;
     font-family: "stevie-sans", sans-serif;
     font-style: normal;
+    padding: 0px 100px;
 }
 
 #about img{
