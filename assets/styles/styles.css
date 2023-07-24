@@ -23,8 +23,9 @@ body{
   -webkit-text-stroke-color: #fff;
 }
 
-.container-fluid, .col-md-6{
+.container-fluid, .col-md-6, .col-lg-4, .row{
     padding: 0;
+    overflow-x: hidden;
 }
 
 #brand{
@@ -134,12 +135,12 @@ body{
     padding: 5px;
     border: solid 2px #000;
     border-radius: 15px;
-    width: 30vw;
+    width: 28vw;
     margin: 10px auto 10px auto;
 }
 
 #reviews img{
-    width: 30vw;
+    width: 28vw;
     height: fit-content;
     border: solid 2px #000;
     border-radius: 15px;
