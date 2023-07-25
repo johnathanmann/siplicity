@@ -34,7 +34,7 @@ body{
     font-style: normal;
     top: 10px;
     left: 45%;
-    z-index: 1;
+    z-index: 6;
 }
 
 #header{
@@ -149,4 +149,36 @@ body{
 
 #reviews .col-lg-4, #reviews .col-md-12{
     overflow-x: hidden;
+}
+
+#coming-soon h1{
+    font-family: "gambado-sans-forte", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--red);
+}
+
+#coming-soon img{
+    height: 50vh;
+    top: auto;
+    position: absolute;
+}
+
+#tipsy-black{
+    z-index: 5;
+}
+
+#tipsy-light{
+    transition: transform 1s;
+    z-index: 4;
+}
+
+#tipsy-dark{
+    transition: transform 1s;
+    z-index: 3;
+}
+
+#tipsy-red{
+    transition: transform 1s;
+    z-index: 2;
 }
