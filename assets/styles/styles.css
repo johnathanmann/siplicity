@@ -151,6 +151,10 @@ body{
     overflow-x: hidden;
 }
 
+#coming-soon .col-md-6{
+    height: 50vh;
+}
+
 #coming-soon h1{
     font-family: "gambado-sans-forte", sans-serif;
     font-weight: 700;
@@ -160,7 +164,6 @@ body{
 
 #coming-soon img{
     height: 50vh;
-    top: auto;
     position: absolute;
 }
 
