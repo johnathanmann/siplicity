@@ -23,6 +23,13 @@ body{
   -webkit-text-stroke-color: #fff;
 }
 
+.header{
+    font-family: "gambado-sans-forte", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--red);
+}
+
 .container-fluid, .col-md-6, .col-lg-4{
     padding: 0;
 }
@@ -101,13 +108,6 @@ body{
     margin-top: 30vh;
 }
 
-#about h1{
-    font-family: "gambado-sans-forte", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: var(--red);
-}
-
 #about p{
     font-size: 24px;
     font-family: "stevie-sans", sans-serif;
@@ -121,13 +121,6 @@ body{
 
 .cans{
     height:50vh;
-}
-
-#review-header{
-    font-family: "gambado-sans-forte", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: var(--red);
 }
 
 #reviews p{
@@ -151,10 +144,6 @@ body{
     overflow-x: hidden;
 }
 
-#coming-soon .col-md-6{
-    height: 50vh;
-}
-
 #coming-soon h1{
     font-family: "gambado-sans-forte", sans-serif;
     font-weight: 700;
@@ -162,8 +151,13 @@ body{
     color: var(--red);
 }
 
+#coming-soon .col{
+    display: inline-flex;
+}
+
 #coming-soon img{
     height: 50vh;
+    display: inline;
     position: absolute;
 }
 
