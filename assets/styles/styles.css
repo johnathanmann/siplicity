@@ -187,7 +187,7 @@ footer{
     background-size: cover;
 }
 
-footer h1{
+footer h1, h2{
     color: #fff;
     font-family: "gambado-sans-forte", sans-serif;
     font-weight: 700;
@@ -232,5 +232,8 @@ footer button{
     border: solid 2px #fff;
     padding: 0px 10px;
     color: #fff;
+    font-size: 20px;
+    font-family: "stevie-sans", sans-serif;
+    font-style: normal
 }
 
