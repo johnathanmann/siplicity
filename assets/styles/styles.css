@@ -30,7 +30,7 @@ body{
     color: var(--red);
 }
 
-.container-fluid, .col-md-6, .col-lg-4{
+.container-fluid, .col-md-6, .col-lg-4, .col-md-7{
     padding: 0;
 }
 
@@ -125,6 +125,7 @@ body{
 
 #reviews p{
     padding: 10px;
+    font-size: 20px;
     border: solid 2px #000;
     border-radius: 15px;
     width: 28vw;
@@ -178,3 +179,33 @@ body{
     transition: transform 1s;
     z-index: 2;
 }
+
+footer{
+    margin-top: 150px;
+    background-image: url(../imgs/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer h1{
+    color: #fff;
+    font-family: "gambado-sans-forte", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+footer .col-md-5, footer .col-md-7{
+    padding-top: 50px;
+}
+
+footer p{
+    color: #fff;
+    font-size: 20px;
+    font-family: "stevie-sans", sans-serif;
+    font-style: normal;
+}
+
+.fa-square-twitter{
+    padding: 0px 10px 50px 10px;
+}
+
