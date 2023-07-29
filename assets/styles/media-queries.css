@@ -59,6 +59,17 @@
         width: 85vw;
     }
     #coming-soon img{
-        height: 30vh;
+        height: 25vh;
+    }
+    #coming-soon figure:hover #tipsy-light {
+        transform: translate(12.5px, 5px) ;
+    }
+    
+    #coming-soon figure:hover #tipsy-dark{
+        transform: translate(25px, 7px) ;
+    }
+    
+    #coming-soon figure:hover #tipsy-red{
+        transform: translate(37.5px, 10px) ;
     }
 }
