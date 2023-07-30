@@ -142,7 +142,7 @@ body{
 
 #reviews img{
     width: 28vw;
-    height: fit-content;
+    height: auto;
     border: solid 2px #000;
     border-radius: 15px;
     display: block;
