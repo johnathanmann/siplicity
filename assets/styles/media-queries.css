@@ -24,6 +24,9 @@
     .stroke{
         -webkit-text-stroke-width: 2px;
     }
+    #header{
+        height: 90vh;
+    }
     #header h1{
         margin-top: 15vh;
     }
@@ -42,6 +45,12 @@
     #coming-soon img{
         height: 40vh;
     }
+    footer input{
+        width: 50vw;
+    }
+    footer{
+        margin-top: 100px;
+    }
 }
 
 @media (max-width: 576px){
@@ -59,16 +68,14 @@
         width: 85vw;
     }
     #coming-soon img{
-        height: 25vh;
+        height: 20vh;
     }
     #coming-soon figure:hover #tipsy-light {
         transform: translate(12.5px, 5px) ;
     }
-    
     #coming-soon figure:hover #tipsy-dark{
         transform: translate(25px, 7px) ;
     }
-    
     #coming-soon figure:hover #tipsy-red{
         transform: translate(37.5px, 10px) ;
     }

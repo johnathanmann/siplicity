@@ -42,6 +42,10 @@ body{
     color: var(--red);
 }
 
+.container-fluid{
+    padding: 0px;
+}
+
 #brand{
     position: fixed;
     font-family: "gambado-sans-forte", sans-serif;
@@ -214,7 +218,7 @@ footer p{
 }
 
 .fa-square-twitter{
-    padding: 0px 10px 50px 10px;
+    padding: 0px 10px 0px 10px;
 }
 
 footer input{
