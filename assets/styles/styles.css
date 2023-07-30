@@ -6,7 +6,11 @@
 body{
     background-color: var(--cream) !important;
     margin: none;
-    overflow-x: hidden;
+    overflow-x:hidden;
+}
+
+html{
+    overflow: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -169,7 +173,7 @@ body{
 }
 
 #coming-soon img{
-    height: 50vh;
+    height: 40vh;
     position: absolute;
 }
 
@@ -193,7 +197,7 @@ body{
 }
 
 footer{
-    margin-top: 200px;
+    margin-top: 150px;
     background-image: url(../imgs/footer-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
