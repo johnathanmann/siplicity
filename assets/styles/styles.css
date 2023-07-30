@@ -42,10 +42,6 @@ body{
     color: var(--red);
 }
 
-.container-fluid, .row, .col-md-6, .col-lg-4, .col-md-7, .col-sm-7, .col-sm-5{
-    padding: 0;
-}
-
 #brand{
     position: fixed;
     font-family: "gambado-sans-forte", sans-serif;
